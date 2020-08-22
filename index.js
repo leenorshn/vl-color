@@ -16,7 +16,7 @@ const allColors = [
   ];
 
   exports.getRandomColor=()=>{
-      return allColors[Math.random()*allColors.length];
+      return allColors[Math.floor(Math.random())*allColors.length];
   }
 
   exports.vlColors=allColors;
